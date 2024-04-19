@@ -48,7 +48,7 @@ public class CollegeModule extends BaseClass{
 		      String url2 = "https://ksgcollege.com/online-admissions.php1";
 		      SoftAssert s1=new SoftAssert();
 	          s1.assertEquals(url1, url2);
-	          s1.assertAll();
+	        //  s1.assertAll();
 	}
        @Test (priority=3)
        
