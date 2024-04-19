@@ -16,7 +16,7 @@ import pages.ksg.Onlineadmission;
 import pages.ksg.Stafflogin;
 
 @Listeners(ksg.generic.ListenerImplementation.class)
-public class CollegeModule extends BaseClass{
+public class CollegeModuleTest extends BaseClass{
 
 	//HI welcome to the project
 	@Test (priority=1)
@@ -35,6 +35,7 @@ public class CollegeModule extends BaseClass{
 	    //s.assertAll();
 	    
 	}
+	//hi
 @Test (priority=2)
 		
 	public void onlineAdmission(){
