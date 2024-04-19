@@ -18,7 +18,7 @@ import pages.ksg.Stafflogin;
 @Listeners(ksg.generic.ListenerImplementation.class)
 public class CollegeModule extends BaseClass{
 
-	//HI
+	//HI welcome to the project
 	@Test (priority=1)
 	public void testCollegeModule() throws InterruptedException, EncryptedDocumentException, IOException {
 		Reporter.log("testcollegemodule", true);
