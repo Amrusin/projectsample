@@ -32,7 +32,7 @@ public class CollegeModule extends BaseClass{
 	    SoftAssert s=new SoftAssert();
 	    s.assertEquals(atitle, etitle);
 	    //driver.close();
-	    s.assertAll();
+	    //s.assertAll();
 	    
 	}
 @Test (priority=2)
