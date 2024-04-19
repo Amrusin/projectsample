@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[openBrowser]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[testcollegemodule]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[onlineAdmission]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[alumini meet 2020]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-19T17:22:21 IST" name="Default suite" finished-at="2024-04-19T17:22:48 IST" duration-ms="27517">
+    <groups>
+    </groups>
+    <test started-at="2024-04-19T17:22:21 IST" name="Default test" finished-at="2024-04-19T17:22:48 IST" duration-ms="27517">
+      <class name="testscript.ksg.CollegeModule">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscript.ksg.CollegeModule@71d44a3]" started-at="2024-04-19T17:22:21 IST" name="openBrowser" finished-at="2024-04-19T17:22:23 IST" duration-ms="1854" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testscript.ksg.CollegeModule@71d44a3]" started-at="2024-04-19T17:22:23 IST" name="login" finished-at="2024-04-19T17:22:29 IST" duration-ms="6250" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testCollegeModule()[pri:1, instance:testscript.ksg.CollegeModule@71d44a3]" started-at="2024-04-19T17:22:29 IST" name="testCollegeModule" finished-at="2024-04-19T17:22:37 IST" duration-ms="7896" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [https://www.ksgcollege.com/Smart-ERP/index.php] but found [BTS InfoTech]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [https://www.ksgcollege.com/Smart-ERP/index.php] but found [BTS InfoTech]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testscript.ksg.CollegeModule.testCollegeModule(CollegeModule.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[testcollegemodule]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCollegeModule -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:testscript.ksg.CollegeModule@71d44a3]" started-at="2024-04-19T17:22:37 IST" name="logOut" finished-at="2024-04-19T17:22:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testscript.ksg.CollegeModule@71d44a3]" started-at="2024-04-19T17:22:37 IST" name="login" finished-at="2024-04-19T17:22:38 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="onlineAdmission()[pri:2, instance:testscript.ksg.CollegeModule@71d44a3]" started-at="2024-04-19T17:22:38 IST" name="onlineAdmission" finished-at="2024-04-19T17:22:40 IST" duration-ms="2092" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [https://ksgcollege.com/online-admissions.php1] but found [https://ksgcollege.com/online-admissions.php]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [https://ksgcollege.com/online-admissions.php1] but found [https://ksgcollege.com/online-admissions.php]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testscript.ksg.CollegeModule.onlineAdmission(CollegeModule.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[onlineAdmission]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- onlineAdmission -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:testscript.ksg.CollegeModule@71d44a3]" started-at="2024-04-19T17:22:40 IST" name="logOut" finished-at="2024-04-19T17:22:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testscript.ksg.CollegeModule@71d44a3]" started-at="2024-04-19T17:22:40 IST" name="login" finished-at="2024-04-19T17:22:40 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="alumni()[pri:3, instance:testscript.ksg.CollegeModule@71d44a3]" started-at="2024-04-19T17:22:40 IST" name="alumni" finished-at="2024-04-19T17:22:48 IST" duration-ms="7856" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[alumini meet 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- alumni -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:testscript.ksg.CollegeModule@71d44a3]" started-at="2024-04-19T17:22:48 IST" name="logOut" finished-at="2024-04-19T17:22:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testscript.ksg.CollegeModule@71d44a3]" started-at="2024-04-19T17:22:48 IST" name="closeBrowser" finished-at="2024-04-19T17:22:48 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscript.ksg.CollegeModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
